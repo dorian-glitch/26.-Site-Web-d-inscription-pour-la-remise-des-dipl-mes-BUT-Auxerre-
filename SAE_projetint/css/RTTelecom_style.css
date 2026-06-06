@@ -1,0 +1,96 @@
+/* --- Style Général --- */
+body {
+	background-image: url("../img/fon1.jpg");
+	background-repeat: repeat;
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: #2c2525; /* Texte général sombre et chaud */
+}
+
+/* --- En-tête (Header) --- */
+header {
+	background-color: #581c24; /* Rouge Bordeaux sombre et chic */
+	color: #ffffff;            /* Texte blanc */
+	border-radius: 15px;
+	margin: 20px 0;
+	padding: 15px;
+	box-shadow: 0 4px 15px rgba(88, 28, 36, 0.2);
+}
+
+header h1 {
+	font-family: 'Ultra', serif;
+}
+
+.tac {
+	text-align: right;
+	font-family: 'Courgette', cursive;
+	color: #e2d7d5;            /* Sous-titre blanc cassé un peu plus sombre */
+}
+
+/* --- Menu de Navigation (Boutons) --- */
+.btn-nav {
+	font-family: 'Ultra', serif;
+	background-color: #b45309; /* Doré cuivré */
+	color: #ffffff;
+	border: none;
+	margin: 0 5px;
+	transition: all 0.3s ease;
+}
+
+.btn-nav:hover {
+	background-color: #e5dcd9; /* Devient beige-sable clair au survol */
+	color: #581c24;            /* Le texte passe au bordeaux */
+}
+
+.btn-nav.active {
+	background-color: #cbd5e1; /* Bouton actif : un blanc cassé/gris plus sombre */
+	color: #581c24;            /* Écrit en bordeaux */
+	font-weight: bold;
+}
+
+/* --- Sections de la page --- */
+section {
+	/* Fond blanc cassé/beige plus sombre et mat (opacité à 90% pour la lisibilité) */
+	background-color: rgba(229, 220, 217, 0.9); 
+	margin: 20px 0;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+section h2 {
+	font-family: 'Ultra', serif;
+	text-decoration: underline;
+	text-decoration-color: #b45309; /* Rappel du doré cuivré sous les titres */
+	text-underline-offset: 6px;
+	margin-bottom: 20px;
+	text-align: left;
+	color: #581c24;                 /* Titres des départements en bordeaux */
+}
+
+/* --- Carrousel --- */
+.carousel {
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+/* --- Pied de page (Footer) --- */
+footer {
+	background-color: #581c24; /* Rappel du rouge bordeaux */
+	color: #ffffff;
+	border-radius: 15px;
+	padding: 15px;
+	margin-bottom: 20px;
+	box-shadow: 0 -4px 15px rgba(88, 28, 36, 0.15);
+}
+
+footer img {
+	width: 40px;
+	transition: transform 0.2s;
+}
+
+footer img:hover {
+	transform: scale(1.1);
+}
